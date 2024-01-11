@@ -1,8 +1,13 @@
+import { SvgLogo } from '../../Svg';
 import './header.css';
 
 const Header = () => {
     return (
-        <h1>Header</h1>
+        <>
+        <div className='header-container'>
+            <SvgLogo />
+        </div>
+        </>
     )
 }
 

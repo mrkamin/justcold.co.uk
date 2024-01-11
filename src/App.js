@@ -13,6 +13,7 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header />
         <Routes>
           <Route path="/" element={<Hero />} />
           <Route path="about" element={<About />} />
@@ -20,7 +21,6 @@ function App() {
           <Route path="commercial-rerergeration" element={<CommercialRefergeration />} />
           <Route path="contact" element={<Contact />} />
           <Route path="footer" element={<Footer />} />
-          <Route path="header" element={<Header />} />
           <Route path="repair-maintenance" element={<RepairMaintenance />} />
           <Route path="testimonials" element={<Testimonials />} />
         </Routes>
