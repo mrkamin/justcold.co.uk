@@ -1,17 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
 import "./header.css";
 
-const HeaderUperHead = () => {
-  const [activeNav, setActiveNav] = useState("/");
+const HeaderUperHead = ({ handleSetActiveNav, activeNav }) => {
+
   return (
     <>
       <ul className="nav-menu-uper-head flex">
         <li className="nav-list-uper-head">
           <Link
             to="about-us"
-            onClick={() => setActiveNav("about-us")}
+            onClick={() => handleSetActiveNav("about-us")}
             className={activeNav === "about-us" ? "active" : ""}
           >
             About-Us
@@ -20,7 +20,7 @@ const HeaderUperHead = () => {
         <li className="nav-list-uper-head">
           <Link
             to="testimonials"
-            onClick={() => setActiveNav("testimonials")}
+            onClick={() => handleSetActiveNav("testimonials")}
             className={activeNav === "testimonials" ? "active" : ""}
           >
             Testimonials
@@ -29,7 +29,7 @@ const HeaderUperHead = () => {
         <li className="nav-list-uper-head">
           <Link
             to="blog"
-            onClick={() => setActiveNav("blog")}
+            onClick={() => handleSetActiveNav("blog")}
             className={activeNav === "blog" ? "active" : ""}
           >
             Blog
@@ -38,7 +38,7 @@ const HeaderUperHead = () => {
         <li className="nav-list-uper-head">
           <Link
             to="contact-us"
-            onClick={() => setActiveNav("contact-us")}
+            onClick={() => handleSetActiveNav("contact-us")}
             className={activeNav === "contact-us" ? "active" : ""}
           >
             Contact-Us

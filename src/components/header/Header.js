@@ -7,6 +7,11 @@ import Headroom from "react-headroom";
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("/");
+
+  const handleSetActiveNav = (nav) => {
+    setActiveNav(nav);
+  };
+
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
@@ -27,7 +32,10 @@ const Header = () => {
             <SvgLogo />
           </Link>
           <div className="menu-list flex">
-            <HeaderUperHead />
+            <HeaderUperHead
+              handleSetActiveNav={handleSetActiveNav}
+              activeNav={activeNav}
+            />
             <ul className="nav-menu flex">
               <li className="nav-list">
                 <Link
@@ -62,7 +70,7 @@ const Header = () => {
                 <Link
                   to="contact-us"
                   onClick={() => setActiveNav("contact-us")}
-                  className={activeNav === "contact-us" ? "active" : ""}
+                  className={activeNav === "contact-us" ? "/" : ""}
                 >
                   24/7 Support
                 </Link>
