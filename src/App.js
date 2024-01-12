@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import RepairMaintenance from "./components/repair-maintenance/RepairMaintenance";
 import Testimonials from "./components/testimonials/Testimonials";
+import OurProjects from "./our-projects/OurProjects";
 
 function App() {
   return (
@@ -16,14 +17,15 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Hero />} />
-          <Route path="about" element={<About />} />
-          <Route path="bloger" element={<Bloger />} />
+          <Route path="about-us" element={<About />} />
+          <Route path="blog" element={<Bloger />} />
           <Route path="commercial-rerergeration" element={<CommercialRefergeration />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="footer" element={<Footer />} />
+          <Route path="contact-us" element={<Contact />} />
           <Route path="repair-maintenance" element={<RepairMaintenance />} />
           <Route path="testimonials" element={<Testimonials />} />
+          <Route path="our-projects" element={<OurProjects />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

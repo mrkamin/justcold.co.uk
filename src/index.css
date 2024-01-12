@@ -12,7 +12,15 @@ code {
     monospace;
 }
 
-.svg {
-  padding: 0;
-  margin: 0;
+ul {
+  gap: 2rem;
+  list-style-type: none;
 }
+
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+

@@ -87,11 +87,11 @@ export const Svg2 = () => (
 export const SvgLogo = () => (
   <>
     <svg
-      viewBox="0 0 396 247"
+      viewBox="100 25 200 200"
       data-background-color="#40c5f2"
       preserveAspectRatio="xMidYMid meet"
-      height="110"
-      width="200"
+      height="120"
+      width="120"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       className="svg"
@@ -102,12 +102,13 @@ export const SvgLogo = () => (
       >
         <svg viewBox="0 0 395.52 247.2" height="247.2" width="395.52">
           <g>
-            <svg viewBox="0 0 395.52 247.2" height="247.2" width="395.52">
+            <svg viewBox="0 0 395.52 247.2" height="247.2" width="395.52" >
               <g transform="matrix(1,0,0,1,103.79774366445898,47.215199999999996)">
                 <svg
                   viewBox="0 0 187.92451267108203 152.7696"
                   height="152.7696"
                   width="187.92451267108203"
+                  className="svg1"
                 >
                   <g>
                     <svg
