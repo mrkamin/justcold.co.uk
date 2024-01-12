@@ -147,7 +147,7 @@ export const SvgLogo = () => (
                                         opacity="1"
                                         transform="matrix(1,0,0,1,0,0)"
                                         fill="#ffffff"
-                                        class="wordmark-text-0"
+                                        className="wordmark-text-0"
                                         data-fill-palette-color="primary"
                                         id="text-0"
                                       />
@@ -173,7 +173,7 @@ export const SvgLogo = () => (
                                         opacity="1"
                                         transform="matrix(1,0,0,1,0,0)"
                                         fill="#ffffff"
-                                        class="slogan-text-1"
+                                        className="slogan-text-1"
                                         data-fill-palette-color="secondary"
                                         id="text-1"
                                       />
@@ -211,8 +211,8 @@ export const SvgLogo = () => (
                                   cy="52.90601840327045"
                                   fill="#ffffff"
                                   stroke="transparent"
-                                  stroke-width="0"
-                                  fill-opacity="1"
+                                  strokeWidth="0"
+                                  fillOpacity="1"
                                   data-fill-palette-color="accent"
                                 />
                               </g>
@@ -236,7 +236,7 @@ export const SvgLogo = () => (
                                       xmlSpace="preserve"
                                       height="62.048009000305754"
                                       width="57.598879046550564"
-                                      class="icon-cg-0"
+                                      className="icon-cg-0"
                                       data-fill-palette-color="quaternary"
                                       id="cg-0"
                                     >
@@ -354,7 +354,7 @@ export const SvgLogoBlue = () => (
                                             opacity="1"
                                             transform="matrix(1,0,0,1,0,0)"
                                             fill="#ffffff"
-                                            class="wordmark-text-0"
+                                            className="wordmark-text-0"
                                             data-fill-palette-color="primary"
                                             id="text-0"
                                           ></path>
@@ -380,7 +380,7 @@ export const SvgLogoBlue = () => (
                                             opacity="1"
                                             transform="matrix(1,0,0,1,0,0)"
                                             fill="#ffffff"
-                                            class="slogan-text-1"
+                                            className="slogan-text-1"
                                             data-fill-palette-color="secondary"
                                             id="text-1"
                                           ></path>
@@ -421,8 +421,8 @@ export const SvgLogoBlue = () => (
                                       cy="52.90601840327045"
                                       fill="#ffffff"
                                       stroke="transparent"
-                                      stroke-width="0"
-                                      fill-opacity="1"
+                                      strokeWidth="0"
+                                      fillOpacity="1"
                                       data-fill-palette-color="accent"
                                     ></ellipse>
                                   </g>
@@ -444,7 +444,7 @@ export const SvgLogoBlue = () => (
                                           xmlSpace="preserve"
                                           height="62.048009000305754"
                                           width="57.598879046550564"
-                                          class="icon-cg-0"
+                                          className="icon-cg-0"
                                           data-fill-palette-color="quaternary"
                                           id="cg-0"
                                         >
