@@ -7,6 +7,7 @@ import Headroom from "react-headroom";
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("/");
+  const [humberger, setHumberger] = useState('humberger');
 
   const handleSetActiveNav = (nav) => {
     setActiveNav(nav);
@@ -31,6 +32,11 @@ const Header = () => {
           >
             <SvgLogo />
           </Link>
+          <button className="humberger flex">
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </button>
           <div className="menu-list flex">
             <HeaderUperHead
               handleSetActiveNav={handleSetActiveNav}

@@ -6,6 +6,10 @@
   align-items: center;
 }
 
+.nav-menu {
+    padding: 0;
+    margin: 0;
+}
 .nav-menu a {
   color: #fff;
   font-size: large;
@@ -21,6 +25,9 @@
 .menu-list {
   flex-direction: column;
   align-items: flex-end;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
 }
 
 .nav-menu-uper-head a {
@@ -37,4 +44,39 @@
 .active {
   color: #1f1f38 !important;
   border-bottom: 1px solid #1f1f38;
+}
+.humberger {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 35px;
+    width: 45px;
+    gap: 0.2rem;
+    padding: 0;
+    margin: 0;
+    border-radius: 0.2rem;
+    display: none;
+}
+.bar {
+    height: 8px;
+    width: 35px;
+    padding: 0;
+    margin: 0;
+    background-color: #0096c8c4;
+    border-radius: 1rem;
+}
+
+@media screen and (max-width: 1300px) {
+    .header-container {
+        padding: 0 2rem;
+    }
+
+    .humberger {
+        display: flex;
+    }
+
+    .menu-list {
+        display: none;
+    }
 }
