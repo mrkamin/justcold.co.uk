@@ -45,7 +45,7 @@ const HeaderUperHead = ({ handleSetActiveNav, activeNav }) => {
           </Link>
         </li>
         <li className="nav-list-uper-head">
-          <h5>07473319304</h5>
+          <h4>07473319304</h4>
         </li>
         <li className="nav-list-uper-head">
           <a

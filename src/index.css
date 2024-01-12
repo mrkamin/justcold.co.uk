@@ -24,8 +24,28 @@ a {
   display: flex;
 }
 
-h5 {
+ul li h4 {
   padding: 0;
   margin: 0;
   color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+::-webkit-scrollbar {
+  width: 6.5px;
+  height: 6.5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e8dfec;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 20%;
+  background: linear-gradient(#40c5f2, #0097c8);
+  border-radius: 0 0 50px 50px;
 }
