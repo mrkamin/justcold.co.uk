@@ -1,25 +1,51 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { BsWhatsapp } from "react-icons/bs";
 import "./header.css";
 
 const HeaderUperHead = () => {
+  const [activeNav, setActiveNav] = useState("/");
   return (
     <>
       <ul className="nav-menu-uper-head flex">
         <li className="nav-list-uper-head">
-          <Link to="about-us">About-Us</Link>
+          <Link
+            to="about-us"
+            onClick={() => setActiveNav("about-us")}
+            className={activeNav === "about-us" ? "active" : ""}
+          >
+            About-Us
+          </Link>
         </li>
         <li className="nav-list-uper-head">
-          <Link to="testimonials">Testimonials</Link>
+          <Link
+            to="testimonials"
+            onClick={() => setActiveNav("testimonials")}
+            className={activeNav === "testimonials" ? "active" : ""}
+          >
+            Testimonials
+          </Link>
         </li>
         <li className="nav-list-uper-head">
-          <Link to="blog">Blog</Link>
+          <Link
+            to="blog"
+            onClick={() => setActiveNav("blog")}
+            className={activeNav === "blog" ? "active" : ""}
+          >
+            Blog
+          </Link>
         </li>
         <li className="nav-list-uper-head">
-          <Link to="contact-us">Contact-Us</Link>
+          <Link
+            to="contact-us"
+            onClick={() => setActiveNav("contact-us")}
+            className={activeNav === "contact-us" ? "active" : ""}
+          >
+            Contact-Us
+          </Link>
         </li>
         <li className="nav-list-uper-head">
-          <Link>07473319304</Link>
+          <h5>07473319304</h5>
         </li>
         <li className="nav-list-uper-head">
           <a
