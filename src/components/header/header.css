@@ -4,11 +4,12 @@
   margin: 0;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .nav-menu {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 .nav-menu a {
   color: #fff;
@@ -45,38 +46,82 @@
   color: #1f1f38 !important;
   border-bottom: 1px solid #1f1f38;
 }
-.humberger {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    height: 35px;
-    width: 45px;
-    gap: 0.2rem;
-    padding: 0;
-    margin: 0;
-    border-radius: 0.2rem;
-    display: none;
+.hamburger {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  gap: 0.3rem;
+  padding: 0;
+  margin: 0;
+  border-radius: 0.2rem;
+  display: none;
 }
 .bar {
-    height: 8px;
-    width: 35px;
-    padding: 0;
-    margin: 0;
-    background-color: #0096c8c4;
-    border-radius: 1rem;
+  order: -1;
+  width: 35px;
+  height: 5px;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  transition: transform 0.5s, opacity 0.5s;
 }
 
 @media screen and (max-width: 1300px) {
-    .header-container {
-        padding: 0 2rem;
-    }
+  .header-container {
+    padding: 0 2rem;
+  }
+}
 
-    .humberger {
-        display: flex;
-    }
+@media screen and (max-width: 992px) {
+  .hamburger {
+    display: flex;
+  }
 
-    .menu-list {
-        display: none;
-    }
+  .menu-list {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    position: absolute;
+    top: 122px;
+    background: #0097c8;
+    width: 50%;
+    right: 0;
+  }
+
+  .open {
+    background-color: #fff;
+    border-radius: 50%;
+    height: 35px;
+  }
+  .open .bar:nth-child(1) {
+    transform: translate(0, 12px) rotate(-45deg);
+    background-color: #0097c8;
+  }
+  .open .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .open .bar:nth-child(3) {
+    transform: translate(0, -9px) rotate(45deg);
+    background-color: #0097c8;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  .nav-menu-uper-head {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    padding: 0;
+  }
 }

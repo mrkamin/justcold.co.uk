@@ -7,7 +7,7 @@ import Headroom from "react-headroom";
 
 const Header = () => {
   const [activeNav, setActiveNav] = useState("/");
-  const [humberger, setHumberger] = useState('humberger');
+  const [isMenuOpen, setIsMenuOpen] = useState("false");
 
   const handleSetActiveNav = (nav) => {
     setActiveNav(nav);
@@ -16,6 +16,11 @@ const Header = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen)
+  }
+
   return (
     <div className="">
       <Headroom>
@@ -32,12 +37,15 @@ const Header = () => {
           >
             <SvgLogo />
           </Link>
-          <button className="humberger flex">
+          <div
+            onClick={toggleMenu}
+            className={`hamburger flex ${isMenuOpen ? 'open' : ''}`}
+          >
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
-          </button>
-          <div className="menu-list flex">
+          </div>
+          <div className={`menu-list flex ${isMenuOpen ? 'show' : ''}`}>
             <HeaderUperHead
               handleSetActiveNav={handleSetActiveNav}
               activeNav={activeNav}
