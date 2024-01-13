@@ -18,7 +18,7 @@
 }
 
 .nav-menu a:hover {
-  color: #1f1f386c;
+  color: #1f1f3856;
   border-bottom: 1px solid #1f1f38;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .nav-menu-uper-head a:hover {
-  color: #1f1f38;
+  color: #1f1f3856;
   border-bottom: 1px solid #1f1f38;
 }
 
@@ -60,8 +60,8 @@
 
 .bar {
   order: -1;
-  width: 30px;
-  height: 4px;
+  width: 25px;
+  height: 2px;
   cursor: pointer;
   padding: 0;
   margin: 0;
@@ -106,17 +106,17 @@
   .open {
     background-color: #fff;
     border-radius: 50%;
-    height: 30px;
+    height: 25px;
   }
   .open .bar:nth-child(1) {
-    transform: translate(0, 9px) rotate(-45deg);
+    transform: translate(0, 6px) rotate(-45deg);
     background-color: #0097c8;
   }
   .open .bar:nth-child(2) {
     opacity: 0;
   }
   .open .bar:nth-child(3) {
-    transform: translate(0, -9px) rotate(45deg);
+    transform: translate(0, -7px) rotate(45deg);
     background-color: #0097c8;
   }
   .nav-menu {

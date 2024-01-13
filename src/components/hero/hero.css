@@ -1,0 +1,25 @@
+/* Bannar Conatainer */
+.home {
+    position: relative;
+}
+.banner-img {
+    width: 100%;
+    object-fit: cover;
+    height: 550px;
+  }
+  
+  .banner-msg {
+    top: 200px;
+    width: 100%;
+    z-index: 2;
+    transition: all 1000ms ease;
+  }
+  
+  .overlay {
+    background: linear-gradient(#40c5f2a9, #0096c8a2);
+    height: 550px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
