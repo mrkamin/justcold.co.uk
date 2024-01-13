@@ -30,6 +30,7 @@ const Header = () => {
             scrollToTop();
           }}
         >
+          <div className="menu-bar flex">
           <Link
             to="/"
             onClick={() => setActiveNav("/")}
@@ -37,6 +38,7 @@ const Header = () => {
           >
             <SvgLogo />
           </Link>
+          
           <div
             onClick={toggleMenu}
             className={`hamburger flex ${isMenuOpen ? 'open' : ''}`}
@@ -44,6 +46,8 @@ const Header = () => {
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
+          </div>
+
           </div>
           <div className={`menu-list flex ${isMenuOpen ? 'show' : ''}`}>
             <HeaderUperHead
