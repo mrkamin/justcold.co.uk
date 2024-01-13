@@ -13,6 +13,28 @@
     width: 100%;
     z-index: 2;
     transition: all 1000ms ease;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .banner-msg-p {
+    
+    flex-direction: column
+  }
+  .bannerUpAnimation {
+    padding: 0 !important;
+    margin: 0;
+    text-align: center;
+  }
+
+  .paragraphAminiation {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    font-size:x-large;
   }
   
   .overlay {
@@ -22,4 +44,10 @@
     position: absolute;
     top: 0;
     z-index: 1;
+  }
+
+  .bannerbtn {
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 1rem;
   }

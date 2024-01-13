@@ -1,8 +1,8 @@
-import React, { useLayoutEffect, useRef } from 'react';
-import { gsap } from 'gsap';
-import { Link } from 'react-router-dom';
-import IMG from '../../assets/banner.jpg';
-import './hero.css';
+import React, { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { Link } from "react-router-dom";
+import IMG from "../../assets/banner.jpg";
+import "./hero.css";
 
 const Hero = () => {
   const rightAnimition = useRef();
@@ -10,35 +10,35 @@ const Hero = () => {
 
   useLayoutEffect(() => {
     const bannerAninmation = gsap.context(() => {
-      gsap.from('.bannerMsgBtnleft', {
+      gsap.from(".bannerMsgBtnleft", {
         duration: 1,
-        x: '-600%',
-        ease: '',
+        x: "-600%",
+        ease: "",
       });
       gsap.to(leftAnimation.current, {
         duration: 1,
-        x: '0%',
-        ease: '',
+        x: "0%",
+        ease: "",
       });
-      gsap.from('.bannerMsgBtnright', {
+      gsap.from(".bannerMsgBtnright", {
         duration: 1,
-        x: '400%',
-        ease: '',
-      });
-      gsap.to(rightAnimition.current, {
-        duration: 1,
-        x: '0%',
-        ease: '',
-      });
-      gsap.from('.bannerUpAnimation', {
-        duration: 1,
-        y: '-400%',
-        ease: '',
+        x: "400%",
+        ease: "",
       });
       gsap.to(rightAnimition.current, {
         duration: 1,
-        y: '0%',
-        ease: '',
+        x: "0%",
+        ease: "",
+      });
+      gsap.from(".bannerUpAnimation", {
+        duration: 1,
+        y: "-400%",
+        ease: "",
+      });
+      gsap.to(rightAnimition.current, {
+        duration: 1,
+        y: "0%",
+        ease: "",
       });
     });
     return () => bannerAninmation.revert();
@@ -53,10 +53,11 @@ const Hero = () => {
         <img src={IMG} alt="banner" className="banner-img" />
         <div className="overlay" />
       </div>
-      <div className="banner-msg">
-        <div className="banner-msg-p">
+      <div className="banner-msg flex">
+        <div className="banner-msg-p flex">
           <h1 className="bannerUpAnimation" ref={rightAnimition}>
-            <span className='font-family-coiny'>JustCold</span> Refrigeration
+            <span className="font-family-coiny">JustCold</span>
+            <span className="font-family-patua"> Refrigeration</span>
           </h1>
           <p className="paragraphAminiation" ref={leftAnimation}>
             Specialist Fridges Installation & Commercial Refrigeration Service
@@ -65,7 +66,7 @@ const Hero = () => {
         <div className="banner-link">
           <Link
             to="our-projects"
-            className="bannerMsgBtnleft"
+            className="bannerMsgBtnleft bannerbtn"
             ref={leftAnimation}
             onClick={scrollToTop}
           >
@@ -73,7 +74,7 @@ const Hero = () => {
           </Link>
           <Link
             to="contact-us"
-            className="bannerMsgBtnright"
+            className="bannerMsgBtnright bannerbtn"
             ref={rightAnimition}
             onClick={scrollToTop}
           >

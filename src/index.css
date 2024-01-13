@@ -9,8 +9,22 @@
   --ff-bai-jamjuree: "Bai Jamjuree", sans-serif;
   --ff-Patua: 'Patua One', serif;;
 }
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .font-family-coiny {
   font-family: var(--ff-coiny);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.font-family-patua {
+  font-family: var(--ff-Patua);
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 ul {
   gap: 2rem;
