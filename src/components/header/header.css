@@ -20,7 +20,7 @@
   color: #fff;
   font-size: large;
   font-weight: 650;
-  transition: all 500ms ease;
+  transition: all 1000ms ease;
 }
 
 .nav-menu a:hover {
@@ -74,6 +74,22 @@
   background-color: #fff;
   border-radius: 0.2rem;
   transition: transform 0.5s, opacity 0.5s;
+}
+.dropdown-container {
+  position: relative;
+}
+.dropdown-content {
+  flex-direction: column;
+  position: absolute;
+  background: linear-gradient(#0097c8, #40c5f2);
+  padding: 2rem 1rem 0.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  gap: 1rem;
+}
+
+.dropdown-content a {
+  font-size: 17px;
 }
 
 @media screen and (max-width: 1300px) {

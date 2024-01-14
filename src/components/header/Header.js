@@ -8,6 +8,7 @@ import Headroom from "react-headroom";
 const Header = () => {
   const [activeNav, setActiveNav] = useState("/");
   const [isMenuOpen, setIsMenuOpen] = useState("false");
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const handleSetActiveNav = (nav) => {
     setActiveNav(nav);
@@ -18,8 +19,16 @@ const Header = () => {
   };
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen)
-  }
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const openDropdown = () => {
+    setIsDropdownOpen(true);
+  };
+
+  const closeDropdown = () => {
+    setIsDropdownOpen(false);
+  };
 
   return (
     <div className="">
@@ -31,40 +40,55 @@ const Header = () => {
           }}
         >
           <div className="menu-bar flex">
-          <Link
-            to="/"
-            onClick={() => setActiveNav("/")}
-            className={activeNav === "/" ? "/" : ""}
-          >
-            <SvgLogo />
-          </Link>
-          
-          <div
-            onClick={toggleMenu}
-            className={`hamburger flex ${isMenuOpen ? 'open' : ''}`}
-          >
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </div>
+            <Link
+              to="/"
+              onClick={() => setActiveNav("/")}
+              className={activeNav === "/" ? "/" : ""}
+            >
+              <SvgLogo />
+            </Link>
 
+            <div
+              onClick={toggleMenu}
+              className={`hamburger flex ${isMenuOpen ? "open" : ""}`}
+            >
+              <span className="bar"></span>
+              <span className="bar"></span>
+              <span className="bar"></span>
+            </div>
           </div>
-          <div className={`menu-list flex ${isMenuOpen ? 'show' : ''}`}>
+          <div className={`menu-list flex ${isMenuOpen ? "show" : ""}`}>
             <HeaderUperHead
               handleSetActiveNav={handleSetActiveNav}
               activeNav={activeNav}
             />
             <ul className="nav-menu flex">
               <li className="nav-list">
-                <Link
-                  to="commercial-rerergeration"
-                  onClick={() => setActiveNav("commercial-rerergeration")}
-                  className={
-                    activeNav === "commercial-rerergeration" ? "active" : ""
-                  }
+                <div
+                  className="dropdown-container"
+                  onMouseEnter={openDropdown}
+                  onMouseLeave={closeDropdown}
                 >
-                  Commercial-Rerergeration
-                </Link>
+                  <Link
+                    to="commercial-rerergeration"
+                    onClick={() => {
+                      setActiveNav("commercial-rerergeration");
+                    }}
+                    className={
+                      activeNav === "commercial-rerergeration" ? "active" : ""
+                    }
+                  >
+                    Commercial-Refergeration
+                  </Link>
+                  {isDropdownOpen && (
+                    <div className="dropdown-content flex">
+                      {/* Dropdown content goes here */}
+                      <Link to="/category1">Cold Rooms & Cellar Cooler</Link>
+                      <Link to="/category2">Maintenance & Service</Link>
+                      <Link to="/category3">Repair</Link>
+                    </div>
+                  )}
+                </div>
               </li>
               <li className="nav-list">
                 <Link
