@@ -58,3 +58,31 @@
   .banner-link {
     gap: 1rem;
   }
+
+  @media screen and (max-width: 650px) {
+    .paragraphAminiation {
+      padding: 0 2rem;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .banner-msg {
+      top: 150px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .banner-msg {
+      top: 100px;
+    }
+    
+    .banner-link {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    .banner-msg {
+      top: 50px;
+    }
+  }
