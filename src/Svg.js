@@ -41,8 +41,8 @@ export const StarSvg = () => (
 export const Svg1 = () => (
   <>
     <svg
-      width="800px"
-      height="800px"
+      width="50px"
+      height="50px"
       viewBox="0 0 24 24"
       xmlns="http://www.w3.org/2000/svg"
       fill="#0097c8"
@@ -57,8 +57,8 @@ export const Svg2 = () => (
   <>
     <svg
       fill="#0097c8"
-      height="200px"
-      width="200px"
+      height="50px"
+      width="50px"
       version="1.1"
       id="Capa_1"
       xmlns="http://www.w3.org/2000/svg"

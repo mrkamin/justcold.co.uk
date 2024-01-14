@@ -3,6 +3,7 @@ import { gsap } from "gsap";
 import { Link } from "react-router-dom";
 import IMG from "../../assets/banner.jpg";
 import "./hero.css";
+import Cart from "./Cart";
 
 const Hero = () => {
   const rightAnimition = useRef();
@@ -82,6 +83,7 @@ const Hero = () => {
           </Link>
         </div>
       </div>
+      <Cart />
     </div>
   );
 };

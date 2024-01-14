@@ -91,3 +91,51 @@
     top: 50px;
   }
 }
+
+/* Cart Conatainer */
+
+.repar-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.cart-items {
+  flex-direction: column; 
+  border: 3px solid #0097c8;
+  border-radius: 1rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.cart-item {
+  gap: 2rem;
+}
+
+.cart-parg-h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.cart-parg-p {
+  padding: 0;
+  margin: 0;
+}
+.read-more-container {
+  justify-content: end;
+  width: 100%;
+}
+.read-more {
+  background-color: #0097c8;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  font-weight: 600;
+}
