@@ -47,7 +47,14 @@
   }
 
   .bannerbtn {
-    border: 1px solid #fff;
+    border: 3px solid #fff;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 2rem;
+    color: #fff;
+    font-size: large;
+    font-weight: 650;
+  }
+
+  .banner-link {
+    gap: 1rem;
   }

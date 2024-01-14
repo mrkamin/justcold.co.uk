@@ -63,7 +63,7 @@ const Hero = () => {
             Specialist Fridges Installation & Commercial Refrigeration Service
           </p>
         </div>
-        <div className="banner-link">
+        <div className="banner-link flex">
           <Link
             to="our-projects"
             className="bannerMsgBtnleft bannerbtn"

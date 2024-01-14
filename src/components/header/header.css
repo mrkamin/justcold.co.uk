@@ -1,9 +1,15 @@
+.headroom-wrapper {
+  z-index: 5 !important;
+  position: sticky;
+}
+
 .header-container {
   background: linear-gradient(#40c5f2, #0097c8);
   padding: 0 5rem;
   margin: 0;
   justify-content: space-between;
   align-items: center;
+  z-index: 2;
 }
 
 .nav-menu {
