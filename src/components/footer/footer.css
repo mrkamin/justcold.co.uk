@@ -1,4 +1,149 @@
-.footer {
-    height: 200vh;
-    background-color: aqua;
+.swiper {
+  flex-direction: column;
+  padding: 2rem 0;
+  align-items: center !important;
+}
+
+.footer-container {
+  height: 150px;
+  background: linear-gradient(#40c5f2, #0097c8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: large;
+}
+
+.footer-container a {
+  color: #fff;
+  font-size: x-large;
+  transition: all 1000ms ease;
+}
+
+.footer-container a:hover {
+  color: #1f1f3856;
+  border-bottom: 1px solid #1f1f38;
+}
+
+.facebook-icon {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  color: #40c5f2 !important;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+}
+
+.footer-whats-up-icon {
+  color: #fff;
+  padding: 0.5rem;
+  background-color: #0097c8;
+  border: none;
+  border-radius: 50%;
+  width: fit-content;
+  transition: all 1000ms ease;
+}
+
+.footer-whats-up-icon:hover {
+  color: #0097c8;
+  background-color: transparent;
+}
+
+.contact__options-icon {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-socials:hover {
+  background: transparent;
+  color: #1f1f38;
+  border-color: #1f1f38;
+}
+
+.footer-container2 {
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  height: 60px;
+  background: linear-gradient(#40c5f2, #0097c8);
+  padding: 0 5rem;
+}
+
+.footer-social-2 {
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer-address-cont {
+  gap: 1rem;
+}
+
+@media screen and (max-width: 1366px) {
+  .footer-container2 {
+    height: 150px;
+    flex-direction: column;
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .swiper-slide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper-slide {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    height: 270px;
+  }
+
+  .footer-container2 {
+    height: 400px;
+  }
+
+  .footer-social-2 {
+    gap: 5px !important;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 339px) {
+  .footer-container2 {
+    height: 500px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .logoimage {
+    height: 70px;
+    text-align: left;
+  }
+
+  .footer-container2 {
+    height: 400px;
+    gap: 20px !important;
+  }
+
+  .footer-social-2 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 240px) {
+  .email {
+    font-size: 13px;
+  }
+
+  .footer-container2 {
+    height: 470px;
+  }
 }

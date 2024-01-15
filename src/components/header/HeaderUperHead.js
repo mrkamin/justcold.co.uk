@@ -53,7 +53,7 @@ const HeaderUperHead = ({ handleSetActiveNav, activeNav }) => {
             target="_blank"
             rel="noopener noreferrer"
             role="button"
-            className="header-whats-up-icon"
+            className="header-whats-up-icon flex"
           >
             <BsWhatsapp className="contact__options-icon" />
           </a>

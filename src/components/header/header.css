@@ -36,6 +36,10 @@
   justify-content: center;
 }
 
+.nav-menu-uper-head {
+  align-items: center;
+}
+
 .nav-menu-uper-head a {
   color: #fff;
   font-weight: 600;
@@ -90,6 +94,20 @@
 
 .dropdown-content a {
   font-size: 17px;
+}
+
+.header-whats-up-icon {
+  color: #0097c8 !important;
+  padding: 0.5rem;
+  background-color: #fff;
+  border: none;
+  border-radius: 50%;
+}
+
+.header-whats-up-icon:hover {
+  color: #1f1f3857;
+  background-color: transparent;
+  border: 1px solid #1f1f38;
 }
 
 @media screen and (max-width: 1300px) {
