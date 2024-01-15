@@ -7,10 +7,10 @@ const HomeSectionThree = () => {
   };
   return (
     <>
-      <div className="HomeSectionThree gap-3">
-        <div className="w-100 homeSectionThreeItem p-4">
+      <div className="HomeSectionThree grid">
+        <div className="homeSectionThreeItem">
           <h3>Commercial Refrigeration Europe</h3>
-          <p className="text-align-justify">
+          <p className="">
             <span className="brand-color">
               Installation, repair and maintenance.
             </span>
@@ -29,19 +29,19 @@ const HomeSectionThree = () => {
             quick response time, top class service and quality of first time
             fix.
           </p>
-          <div className="d-flex justify-content-end">
+          <div className="">
             <NavLink
               to="contact-us"
-              className=" read-more rounded-5 px-2"
+              className="read-more"
               onClick={scrollToTop}
             >
               Request a Call Out
             </NavLink>
           </div>
         </div>
-        <div className="w-100 homeSectionThreeItem p-4">
+        <div className="homeSectionThreeItem">
           <h3>Our Projects</h3>
-          <p className="text-align-justify">
+          <p className="">
             We offer a
             {' '}
             <span className="brand-color">
@@ -63,10 +63,10 @@ const HomeSectionThree = () => {
             WARRANTY giving you peace of mind that your air conditioning unit
             remains reliable and energy efficient.
           </p>
-          <div className="d-flex justify-content-end">
+          <div className="">
             <NavLink
               to="contact-us"
-              className=" read-more rounded-5 px-2"
+              className=" read-more"
               onClick={() => {
                 scrollToTop();
               }}
@@ -75,7 +75,7 @@ const HomeSectionThree = () => {
             </NavLink>
           </div>
         </div>
-        <div className="w-100 homeSectionThreeItem p-4">
+        <div className="homeSectionThreeItem">
           <h3>Fully Accredited Services</h3>
           <img
             src={IMG9}
@@ -83,15 +83,15 @@ const HomeSectionThree = () => {
             height={150}
             className="accredation"
           />
-          <p className="text-align-justify">
+          <p className="">
             Our aim is to provide enhanced working environments so that
             businesses can operate at their best – without the pains of slow and
             expensive repairs.
           </p>
-          <div className="d-flex justify-content-end">
+          <div className="">
             <NavLink
               to="about-us"
-              className=" read-more rounded-5 px-2"
+              className="read-more"
               onClick={scrollToTop}
             >
               More about us

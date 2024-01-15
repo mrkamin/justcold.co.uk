@@ -138,4 +138,45 @@
   border: none;
   border-radius: 2rem;
   font-weight: 600;
+  transition: all 1000ms ease;
+}
+
+.read-more:hover {
+  background-color:#40c5f2 ;
+  color: #1f1f3856;
+}
+
+.HomeSectionThree {
+  padding: 2rem 6rem;
+}
+
+.brand-color {
+  font-weight: 700;
+  color: #0097c8;
+  font-size: large;
+}
+.accredation {
+  width: 100%;
+}
+@media screen and (max-width: 1300px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .grid {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 300px) {
+  .grid {
+    padding: 0;
+  }
 }
