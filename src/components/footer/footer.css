@@ -30,10 +30,16 @@
   display: flex;
   align-items: center;
   background-color: #fff;
-  color: #40c5f2 !important;
+  color: #40c5f2 ;
   padding: 0.5rem;
   border-radius: 50%;
   border: 1px solid transparent;
+  transition: all 1000ms ease;
+}
+
+.facebook-icon:hover {
+  background-color: transparent;
+  color:#fff;
 }
 
 .footer-whats-up-icon {
