@@ -12,6 +12,7 @@ const Header = () => {
 
   const handleSetActiveNav = (nav) => {
     setActiveNav(nav);
+    closeMenu();
   };
 
   const scrollToTop = () => {
@@ -30,6 +31,10 @@ const Header = () => {
     setIsDropdownOpen(false);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div className="">
       <Headroom>
@@ -42,7 +47,10 @@ const Header = () => {
           <div className="menu-bar flex">
             <Link
               to="/"
-              onClick={() => setActiveNav("/")}
+              onClick={() => {
+                setActiveNav("/");
+                closeMenu(); // Close the menu when the logo is clicked
+              }}
               className={activeNav === "/" ? "/" : ""}
             >
               <SvgLogo />
@@ -71,9 +79,9 @@ const Header = () => {
                 >
                   <Link
                     to="commercial-rerergeration"
-                    onClick={() => {
-                      setActiveNav("commercial-rerergeration");
-                    }}
+                    onClick={() =>
+                      handleSetActiveNav("commercial-rerergeration")
+                    }
                     className={
                       activeNav === "commercial-rerergeration" ? "active" : ""
                     }
@@ -83,9 +91,24 @@ const Header = () => {
                   {isDropdownOpen && (
                     <div className="dropdown-content flex">
                       {/* Dropdown content goes here */}
-                      <Link to="/category1">Cold Rooms & Cellar Cooler</Link>
-                      <Link to="/category2">Maintenance & Service</Link>
-                      <Link to="/category3">Repair</Link>
+                      <Link
+                        to="/category1"
+                        onClick={() => handleSetActiveNav("/category1")}
+                      >
+                        Cold Rooms & Cellar Cooler
+                      </Link>
+                      <Link
+                        to="/category2"
+                        onClick={() => handleSetActiveNav("/category2")}
+                      >
+                        Maintenance & Service
+                      </Link>
+                      <Link
+                        to="/category3"
+                        onClick={() => handleSetActiveNav("/category3")}
+                      >
+                        Repair
+                      </Link>
                     </div>
                   )}
                 </div>
@@ -93,7 +116,7 @@ const Header = () => {
               <li className="nav-list">
                 <Link
                   to="repair-maintenance"
-                  onClick={() => setActiveNav("repair-maintenance")}
+                  onClick={() => handleSetActiveNav("repair-maintenance")}
                   className={activeNav === "repair-maintenance" ? "active" : ""}
                 >
                   Repair-Maintenance
@@ -102,7 +125,7 @@ const Header = () => {
               <li className="nav-list">
                 <Link
                   to="our-projects"
-                  onClick={() => setActiveNav("our-projects")}
+                  onClick={() => handleSetActiveNav("our-projects")}
                   className={activeNav === "our-projects" ? "active" : ""}
                 >
                   Our-Projects
@@ -111,7 +134,7 @@ const Header = () => {
               <li className="nav-list">
                 <Link
                   to="contact-us"
-                  onClick={() => setActiveNav("contact-us")}
+                  onClick={() => handleSetActiveNav("contact-us")}
                   className={activeNav === "contact-us" ? "/" : ""}
                 >
                   24/7 Support

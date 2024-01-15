@@ -33,7 +33,7 @@
   align-items: flex-end;
   padding: 0;
   margin: 0;
-  justify-content: center;
+  gap: 1rem;
 }
 
 .nav-menu-uper-head {
@@ -86,7 +86,7 @@
   flex-direction: column;
   position: absolute;
   background: linear-gradient(#0097c8, #40c5f2);
-  padding: 2rem 1rem 0.5rem;
+  padding: 1rem 1rem 0.5rem;
   border: none;
   border-radius: 0.5rem;
   gap: 1rem;
@@ -98,14 +98,14 @@
 
 .header-whats-up-icon {
   color: #0097c8 !important;
-  padding: 0.5rem;
+  padding: 0.3rem;
   background-color: #fff;
   border: none;
   border-radius: 50%;
 }
 
 .header-whats-up-icon:hover {
-  color: #1f1f3857;
+  color: #1f1f3898;
   background-color: transparent;
   border: 1px solid #1f1f38;
 }
