@@ -61,9 +61,9 @@ const Footer = () => {
           </a>
         </div>
         <div className="homeSectionThreeItem">
-          <h3>Air Conditioning & Refrigeration Eroupe</h3>
+          <h3>Refrigeration Eroupe</h3>
           <p className="">
-            At The UK Everest Ltd, we supply air conditioning and refrigeration
+            At JustCold Ltd, we supply refrigeration
             services for commercial businesses and estate agencies. We’ve
             worked…
           </p>
@@ -83,7 +83,7 @@ const Footer = () => {
           />
         </div>
         <div className="homeSectionThreeItem">
-          <h3>Air Conditioning & Refrigeration Services</h3>
+          <h3>Refrigeration Services</h3>
           <ul className="">
             <li>
               <Link to="about-us" className="">
@@ -125,7 +125,7 @@ const Footer = () => {
       </div>
       <div className="footer-container2 flex">
         <p className="">
-          @2023 The Uk Everest LTD. Company number 12435t643. Office 7, 35-7
+          @2023 JustCold LTD. Company number 12435t643. Office 7, 35-7
           Ludgate . All Rights Reserved
         </p>
         <div className="footer-social-2 flex">
