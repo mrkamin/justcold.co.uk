@@ -9,12 +9,12 @@ import IMG7 from '../../assets/commercial/7.jpg';
 import IMG8 from '../../assets/commercial/8.jpg';
 
 const RefergrationSectTwo = () => (
-  <div className="air-cond-sys-main-cont p-5 d-flex flex-column gap-2">
-    <div className="air-cond-sys-cont gap-4">
-      <div className="d-flex flex-column gap-2">
-        <p className="">
+  <div className="air-cond-sys-main-cont">
+    <div className="air-cond-sys-cont">
+      <div className="">
+        <p className="commercial-p">
           We supply, install, maintain and repair:
-          <span>
+          <span className="brand-color"> 
             {' '}
             high humidity cooling systems, hydro cooling systems, conventional
             cooling,
@@ -22,20 +22,20 @@ const RefergrationSectTwo = () => (
           </span>
           {' '}
           and
-          <span> vacuum cooling refrigeration systems.</span>
+          <span className="brand-color"> vacuum cooling refrigeration systems.</span>
           {' '}
           We have over 10
           years’ experience in the design, supply and installation of made to
           measure
-          <span>cold rooms, cellar coolers, display refrigerators</span>
+          <span className="brand-color"> cold rooms, cellar coolers, display refrigerators</span>
           {' '}
           and
-          <span>bespoke bar units</span>
+          <span className="brand-color"> bespoke bar units</span>
           {' '}
           for all types of commercial and
           industrial businesses including:
         </p>
-        <div className="air-cond-sys-list d-flex fs-5">
+        <div className="air-cond-sys-list">
           <ul className="w-75">
             <li className="air-cond-sys-list-item">Restaurants</li>
             <li className="air-cond-sys-list-item">Catering Companies</li>
@@ -49,7 +49,7 @@ const RefergrationSectTwo = () => (
             <li className="air-cond-sys-list-item">Hotels</li>
           </ul>
         </div>
-        <p>
+        <p className="commercial-p">
           We specialise in reliable, energy efficient commercial refrigeration
           systems that reduce your running costs and save you money. We
           carefully select systems that are the very best high specification
@@ -61,7 +61,7 @@ const RefergrationSectTwo = () => (
         <p>
           We
           {' '}
-          <span>
+          <span className="brand-color">
             supply, install, repair and maintain all commercial refrigeration
             makes and models,
           </span>
@@ -70,32 +70,32 @@ const RefergrationSectTwo = () => (
         </p>
         <div>
           <p>
-            <span> Williams,</span>
+            <span className="brand-color"> Williams,</span>
           </p>
           <p>
-            <span> Foster,</span>
+            <span className="brand-color"> Foster,</span>
           </p>
           <p>
-            <span> True,</span>
+            <span className="brand-color"> True,</span>
           </p>
           <p>
-            <span> Polar,</span>
+            <span className="brand-color"> Polar,</span>
           </p>
           <p>
-            <span> Hoshizaki,</span>
+            <span className="brand-color"> Hoshizaki,</span>
           </p>
           <p>
-            <span> Fagor,</span>
+            <span className="brand-color"> Fagor,</span>
           </p>
           <p>
-            <span> Electrolux, and many more.</span>
+            <span className="brand-color"> Electrolux, and many more.</span>
           </p>
         </div>
         <hr />
         <div>
           <h4>
             Air Conditioning
-            <span>&</span>
+            <span className="brand-color">&</span>
             Refrigeration Services London
           </h4>
           <p>
@@ -112,7 +112,7 @@ const RefergrationSectTwo = () => (
             <br />
             Our experienced design team can offer
             {' '}
-            <span>no obligation advice </span>
+            <span className="brand-color">no obligation advice </span>
             on the best refrigeration solutions for your business.
           </p>
         </div>
@@ -121,7 +121,7 @@ const RefergrationSectTwo = () => (
           <h4>Coldrooms</h4>
           <ul>
             <li>
-              <span>Walk-in Fridge and Walk-in Freezers – </span>
+              <span className="brand-color">Walk-in Fridge and Walk-in Freezers – </span>
               suitable for large stock food catering products with flexible
               temperature, cold storage solutions
             </li>
@@ -136,27 +136,27 @@ const RefergrationSectTwo = () => (
           </p>
           <ul>
             <li>
-              <span>Display Fridge</span>
+              <span className="brand-color">Display Fridge</span>
               – wide range of single or double
               fronted glass door refrigerators for visual impact and with
               variable food display options
             </li>
             <li>
-              <span>Counter Fridge</span>
+              <span className="brand-color">Counter Fridge</span>
               – space efficient, offering flexible
               food preparation
             </li>
             <li>
-              <span>Free Standing Fridge</span>
+              <span className="brand-color">Free Standing Fridge</span>
               – fully automatic, fan assisted
               cooling in a range of sizes
             </li>
             <li>
-              <span>Upright Fridge</span>
+              <span className="brand-color">Upright Fridge</span>
               – variable food display options
             </li>
             <li>
-              <span>Drink Fridge</span>
+              <span className="brand-color">Drink Fridge</span>
               – chilled display fridge with single,
               half size or double door options
             </li>
@@ -168,17 +168,17 @@ const RefergrationSectTwo = () => (
           <p>Reliable food storage solutions for commercial kitchens</p>
           <ul>
             <li>
-              <span>Upright Freezer</span>
+              <span className="brand-color">Upright Freezer</span>
               – space saving, practical and energy
               efficient
             </li>
             <li>
-              <span>Chest Freezer</span>
+              <span className="brand-color">Chest Freezer</span>
               – reliable, high capacity for large
               volume freezing
             </li>
             <li>
-              <span>Counter Freezer</span>
+              <span className="brand-color">Counter Freezer</span>
               – flexible solution for food
               preparation counter space
             </li>
@@ -214,7 +214,7 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <p>
-          <span>
+          <span className="brand-color">
             <Link to="/contact-us">Contact us for No Obligation Survey</Link>
           </span>
         </p>
@@ -236,7 +236,7 @@ const RefergrationSectTwo = () => (
         <p>
           Call
           {' '}
-          <span>07473319304</span>
+          <span className="brand-color">07473319304</span>
           {' '}
           today to talk to us about your
           refrigeration & air conditioning requirements.
@@ -246,7 +246,7 @@ const RefergrationSectTwo = () => (
         <p>Air Conditioning Installation Speciaist</p>
         <h1>07473319304</h1>
         <p>
-          <span>
+          <span className="brand-color">
             <Link to="/contact-us" className="rounded-4">
               email us
             </Link>

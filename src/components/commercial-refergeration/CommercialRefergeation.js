@@ -8,7 +8,7 @@ const CommercialRefergeration = () => {
       <div className="air-cond-banner">
         <img src={IMG} alt="bannerphoto" />
         <div className="air-cond-overlay" />
-        <div className="banner-msg-p flex">
+        <div className="commercial-banner-msg-p flex">
           <h1 className="bannerUpAnimation">
             <span className="font-family-coiny">JustCold</span>
             <span className="font-family-patua"> Commercial Refrigeration</span>

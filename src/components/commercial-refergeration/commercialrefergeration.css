@@ -2,17 +2,23 @@
   position: relative;
 }
 
+.air-cond-banner img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
 .air-cond-overlay {
   background: linear-gradient(#40c5f2a9, #0096c8a2);
-  height: 525px;
+  height: 350px;
   width: 100%;
   position: absolute;
   top: 0;
   z-index: 1;
 }
 
-.banner-msg-p {
-  top: 220px;
+.commercial-banner-msg-p {
+  top: 130px;
   width: 100%;
   z-index: 2;
   transition: all 1000ms ease;
@@ -21,4 +27,39 @@
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+}
+
+.commercial-p {
+    font-size: large;
+    font-weight: 600;
+}
+.commercial-p span {
+    font-size: x-large;
+    font-weight: 600;
+}
+.air-cond-sys-cont {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    gap: 1rem;
+    padding: 1rem 5rem;
+}
+
+.air-cond-sys-list {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.air-cond-sys-list ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    list-style-type:disc;
+    padding: 1rem 8rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.air-cond-sys-list ul li::marker {
+    color: #0096c8 !important;
+    font-size: xx-large;
 }
