@@ -8,9 +8,12 @@ const CommercialRefergeration = () => {
       <div className="air-cond-banner">
         <img src={IMG} alt="bannerphoto" />
         <div className="air-cond-overlay" />
-        <h1 className="air-cond-heading">
-          Commercial Refrigeration Europe
-        </h1>
+        <div className="banner-msg-p flex">
+          <h1 className="bannerUpAnimation">
+            <span className="font-family-coiny">JustCold</span>
+            <span className="font-family-patua"> Commercial Refrigeration</span>
+          </h1>
+        </div>
       </div>
       <RefergrationSectTwo />
     </>

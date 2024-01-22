@@ -1,3 +1,24 @@
 .air-cond-banner {
-    
+  position: relative;
+}
+
+.air-cond-overlay {
+  background: linear-gradient(#40c5f2a9, #0096c8a2);
+  height: 525px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.banner-msg-p {
+  top: 220px;
+  width: 100%;
+  z-index: 2;
+  transition: all 1000ms ease;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
 }
