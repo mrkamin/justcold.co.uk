@@ -11,7 +11,7 @@ import IMG8 from '../../assets/commercial/8.jpg';
 const RefergrationSectTwo = () => (
   <div className="air-cond-sys-main-cont">
     <div className="air-cond-sys-cont">
-      <div className="">
+      <div className="commercial-container flex">
         <p className="commercial-p">
           We supply, install, maintain and repair:
           <span className="brand-color"> 
@@ -93,11 +93,9 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>
-            Air Conditioning
-            <span className="brand-color">&</span>
-            Refrigeration Services London
-          </h4>
+          <h3>
+            Commercial-Refrigeration Services
+          </h3>
           <p>
             Commercial refrigeration is intrinsic to the successful functioning
             of your kitchen but with a vast range of products to choose from
@@ -118,9 +116,9 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Coldrooms</h4>
-          <ul>
-            <li>
+          <h3>Coldrooms</h3>
+          <ul className='commercial-referg-li'>
+            <li >
               <span className="brand-color">Walk-in Fridge and Walk-in Freezers – </span>
               suitable for large stock food catering products with flexible
               temperature, cold storage solutions
@@ -129,12 +127,12 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Commercial Fridges</h4>
+          <h3>Commercial Fridges</h3>
           <p>
             Energy efficient solutions, to help increase product life and
             improve food safety.
           </p>
-          <ul>
+          <ul className='commercial-referg-li'>
             <li>
               <span className="brand-color">Display Fridge</span>
               – wide range of single or double
@@ -164,9 +162,9 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Commercial Freezers</h4>
+          <h3>Commercial Freezers</h3>
           <p>Reliable food storage solutions for commercial kitchens</p>
-          <ul>
+          <ul className='commercial-referg-li'>
             <li>
               <span className="brand-color">Upright Freezer</span>
               – space saving, practical and energy
@@ -186,7 +184,7 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Blast Freezer and Blast Chiller</h4>
+          <h3>Blast Freezer and Blast Chiller</h3>
           <p>
             Reliable way to ensure good food hygiene standards and preserve food
             quickly.
@@ -194,14 +192,14 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Bottle Cooler</h4>
+          <h3>Bottle Cooler</h3>
           <p>
             Glass door, half height, single and double door drinks refrigeration
           </p>
         </div>
         <hr />
         <div>
-          <h4>Sub Zero / Medical Refrigeration</h4>
+          <h3>Sub Zero / Medical Refrigeration</h3>
           <p>
             With advanced temperature settings for sensitive scientific and
             medical materials.
@@ -209,18 +207,18 @@ const RefergrationSectTwo = () => (
         </div>
         <hr />
         <div>
-          <h4>Cellar Cooler, Wine Cooler</h4>
+          <h3>Cellar Cooler, Wine Cooler</h3>
           <p>Under counter and full height wine coolers.</p>
         </div>
         <hr />
         <p>
           <span className="brand-color">
-            <Link to="/contact-us">Contact us for No Obligation Survey</Link>
+            <Link to="/contact-us" className="brand-color">Contact us for No Obligation Survey</Link>
           </span>
         </p>
         <hr />
         <div>
-          <h4>Talk to us about your refrigeration needs</h4>
+          <h3>Talk to us about your refrigeration needs</h3>
           <p>
             The Uk Everest Refrigeration are specialists in air conditioning and
             refrigeration services for commercial businesses in and around the
@@ -242,12 +240,12 @@ const RefergrationSectTwo = () => (
           refrigeration & air conditioning requirements.
         </p>
       </div>
-      <div className="air-cond-sys-contact-info px-5 d-flex flex-column justify-content-center border border-dark rounded-4">
-        <p>Air Conditioning Installation Speciaist</p>
+      <div className="air-cond-sys-contact-info">
+        <p>Commercial Refrigeration Installation Speciaist</p>
         <h1>07473319304</h1>
         <p>
           <span className="brand-color">
-            <Link to="/contact-us" className="rounded-4">
+            <Link to="/contact-us" className="brand-color commercial-email">
               email us
             </Link>
           </span>

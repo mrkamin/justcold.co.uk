@@ -3,9 +3,9 @@
 }
 
 .air-cond-banner img {
-    height: 350px;
-    width: 100%;
-    object-fit: cover;
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .air-cond-overlay {
@@ -30,36 +30,88 @@
 }
 
 .commercial-p {
-    font-size: large;
-    font-weight: 600;
+  font-size: large;
+  font-weight: 600;
 }
 .commercial-p span {
-    font-size: x-large;
-    font-weight: 600;
+  font-size: x-large;
+  font-weight: 600;
 }
 .air-cond-sys-cont {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    gap: 1rem;
-    padding: 1rem 5rem;
+  display: grid;
+  grid-template-columns: 80% 20%;
+  gap: 1rem;
+  padding: 1rem 5rem;
+}
+
+.commercial-container {
+  padding: 1rem;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .air-cond-sys-list {
-    display: grid;
-    grid-template-columns: 50% 50%;
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
 .air-cond-sys-list ul {
-    display: flex;
-    flex-direction: column;
-    gap: 0.1rem;
-    list-style-type:disc;
-    padding: 1rem 8rem;
-    font-size: x-large;
-    font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  list-style-type: disc;
+  padding: 1rem 8rem;
+  font-size: x-large;
+  font-weight: 600;
 }
 
 .air-cond-sys-list ul li::marker {
-    color: #0096c8 !important;
-    font-size: xx-large;
+  color: #0096c8 !important;
+  font-size: xx-large;
+}
+
+.air-cond-sys-contact-info {
+  padding: 0 1rem;
+  margin-top: 1rem;
+  border: 5px solid #0096c8;
+  border-radius: 1rem;
+  height: fit-content;
+  position: sticky;
+  top: 150px;
+}
+
+.commercial-email {
+  transition: all 1000ms ease;
+}
+
+.commercial-email:hover {
+  color: #1f1f38;
+  border-bottom: 1px solid #1f1f38;
+}
+
+hr {
+  width: 100%;
+}
+
+.commercial-referg-li {
+  list-style-type: disc;
+  padding: 1rem 4rem;
+}
+
+.commercial-referg-li ::marker {
+  color: #1f1f38 !important;
+  font-size: xx-large;
+}
+
+.air-cond-projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.air-cond-projects img {
+    width: 100%;
+    object-fit: cover;
+    height: 250px;
 }
