@@ -240,7 +240,7 @@ const RefergrationSectTwo = () => (
           refrigeration & air conditioning requirements.
         </p>
       </div>
-      <div className="air-cond-sys-contact-info">
+      <div className="air-cond-sys-contact-info flex">
         <p>Commercial Refrigeration Installation Speciaist</p>
         <h1>07473319304</h1>
         <p>
