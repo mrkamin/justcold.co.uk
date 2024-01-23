@@ -8,7 +8,7 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import RepairMaintenance from "./components/repair-maintenance/RepairMaintenance";
 import Testimonials from "./components/testimonials/Testimonials";
-import OurProjects from "./our-projects/OurProjects";
+import OurProjects from "./components/our-projects/OurProjects";
 
 function App() {
   return (
