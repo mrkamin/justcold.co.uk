@@ -39,7 +39,7 @@
 }
 .air-cond-sys-cont {
   display: grid;
-  grid-template-columns: 80% 20%;
+  grid-template-columns: 70% 30%;
   gap: 1rem;
   padding: 1rem 5rem;
 }
@@ -104,63 +104,62 @@ hr {
 }
 
 .air-cond-projects {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
-    padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 2rem;
 }
 
 .air-cond-projects img {
-    width: 100%;
-    object-fit: cover;
-    height: 250px;
+  width: 100%;
+  object-fit: cover;
+  height: 250px;
 }
 
 .air-cond-sys-contact-info {
-    flex-direction: column;
-    overflow: hidden;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
 }
 
-@media screen and (max-width: 1300px) {
-    .air-cond-sys-cont {
-        grid-template-columns: 1fr;
-      }
+@media screen and (max-width: 1400px) {
     .air-cond-sys-list ul {
-        padding: 1rem 1.5rem;
-      }
+      padding: 1rem 2rem;
+    }
+  }
+
+@media screen and (max-width: 1300px) {
+  .air-cond-sys-cont {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 992px) {
-    .air-cond-sys-list {
-        display: grid;
-        grid-template-columns: 1fr;
-      }
+  .air-cond-sys-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 
-      .air-cond-projects {
-     
-        grid-template-columns: repeat(3, 1fr);
-       
-    }
+  .air-cond-projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 @media screen and (max-width: 786px) {
-    .air-cond-sys-cont {
-    
-        padding: 1rem 0;
-      }
-      .air-cond-projects {
-       
-        grid-template-columns: repeat(2, 1fr);
-      
-    }
+  .air-cond-sys-cont {
+    padding: 1rem 0;
+  }
+  .air-cond-projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media screen and (max-width: 500px) {
-    .air-cond-sys-cont {
-        padding: 1rem 0;
-      }
-      .air-cond-projects {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 0;
-    }
+  .air-cond-sys-cont {
+    padding: 1rem 0;
+  }
+  .air-cond-projects {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0;
+  }
 }
