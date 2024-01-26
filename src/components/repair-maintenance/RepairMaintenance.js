@@ -5,13 +5,16 @@ import './repairmaintenance.css';
 const RepairMaintenance = () => {
     return (
         <>
-        <div className="air-cond-banner position-relative text-center">
-          <img src={IMG} alt="bannerphoto" />
-          <div className="air-cond-overlay position-absolute" />
-          <h1 className="air-cond-heading p-0 m-0 position-absolute w-100">
-            Air Conditioning & Commercial Refrigeration Repair and Maintenance
+         <div className="air-cond-banner">
+        <img src={IMG} alt="bannerphoto" />
+        <div className="air-cond-overlay" />
+        <div className="commercial-banner-msg-p flex">
+          <h1 className="bannerUpAnimation">
+            <span className="font-family-patua">Commercial Refrigeration</span>
+            <span className="font-family-patua"> Repair & Maintenance</span>
           </h1>
         </div>
+      </div>
         <RepairMaintaince />
       </>
     )

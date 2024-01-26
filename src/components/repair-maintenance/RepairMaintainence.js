@@ -17,10 +17,10 @@ import IMG15 from "../../assets/repair/3 copy.png";
 import IMG16 from "../../assets/repair/4 copy.jpg";
 
 const RepairMaintaince = () => (
-  <div className="air-cond-sys-main-cont p-5 d-flex flex-column gap-2">
-    <div className="air-cond-sys-cont gap-4">
-      <div className="d-flex flex-column gap-2">
-        <h1>Repair and Servicing for Air Conditioning & Refrigeration</h1>
+  <div className="air-cond-sys-main-cont">
+    <div className="air-cond-sys-cont">
+      <div className="">
+        <h1>Repair and Servicing for Commercial Refrigeration</h1>
         <p>
           Here at Be Cool Refrigeration, we repair, service and maintain all
           types of <span>commercial refrigeration</span> and
@@ -34,54 +34,16 @@ const RepairMaintaince = () => (
           call out service and quality of first-time fix.
         </p>
         <hr />
-        <div className="d-flex flex-column gap-4">
-          <h4>Air Conditioning Repair</h4>
-          <div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG9} alt="IMG9" />
-              <p className="p-0 m-0 fs-5">VRV or VRF</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG10} alt="IMG10" />
-              <p className="p-0 m-0 fs-5">Wall Mounted</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG11} alt="IMG11" />
-              <p className="p-0 m-0 fs-5">Cassette</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG12} alt="IMG12" />
-              <p className="p-0 m-0 fs-5">Floor Mounted</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG13} alt="IMG13" />
-              <p className="p-0 m-0 fs-5">Ducted</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG14} alt="IMG14" />
-              <p className="p-0 m-0 fs-5">Concealed</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG15} alt="IMG15" />
-              <p className="p-0 m-0 fs-5">Split</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG16} alt="IMG16" />
-              <p className="p-0 m-0 fs-5">Multi-Split</p>
-            </div>
-          </div>
-        </div>
-        <hr />
-        <div className="d-flex flex-column gap-4">
+        <div className="">
           <h4>Commercial Refrigeration Repair</h4>
           <div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair">
               <img src={IMG9} alt="IMG9" />
-              <p className="p-0 m-0 fs-5">Walk-in Cold Room</p>
+              <p className="">Walk-in Cold Room</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair">
               <img src={IMG10} alt="IMG10" />
-              <p className="p-0 m-0 fs-5">Commercial Fridges</p>
+              <p className="">Commercial Fridges</p>
             </div>
             <div className="air-cond-repair d-flex gap-4 align-items-center">
               <img src={IMG11} alt="IMG11" />
