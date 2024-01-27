@@ -213,7 +213,7 @@ const RefergrationSectTwo = () => (
         <hr />
         <p>
           <span className="brand-color">
-            <Link to="/contact-us" className="brand-color">Contact us for No Obligation Survey</Link>
+            <Link to="/contact-us" className="brand-color commercial-email">Contact us for No Obligation Survey</Link>
           </span>
         </p>
         <hr />
