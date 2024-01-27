@@ -1,4 +1,14 @@
+.repair-container {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.air-cond-repair {
+   gap: 1rem;
+   align-items: center;
+}
+
 .air-cond-repair img {
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
 }

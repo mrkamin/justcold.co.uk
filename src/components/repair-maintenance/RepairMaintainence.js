@@ -36,40 +36,36 @@ const RepairMaintaince = () => (
         <hr />
         <div className="">
           <h4>Commercial Refrigeration Repair</h4>
-          <div>
-            <div className="air-cond-repair">
+          <div className="repair-container flex">
+            <div className="air-cond-repair flex">
               <img src={IMG9} alt="IMG9" />
               <p className="">Walk-in Cold Room</p>
             </div>
-            <div className="air-cond-repair">
+            <div className="air-cond-repair flex">
               <img src={IMG10} alt="IMG10" />
               <p className="">Commercial Fridges</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG11} alt="IMG11" />
               <p className="p-0 m-0 fs-5">Commercial Freezer</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG12} alt="IMG12" />
               <p className="p-0 m-0 fs-5">Display or Counter Fridge</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
-              <img src={IMG13} alt="IMG13" />
-              <p className="p-0 m-0 fs-5">Upright Fridge</p>
-            </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG14} alt="IMG14" />
               <p className="p-0 m-0 fs-5">Cellar or Bottle Cooler</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG15} alt="IMG15" />
               <p className="p-0 m-0 fs-5">Blast Chiller</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG16} alt="IMG16" />
               <p className="p-0 m-0 fs-5">Ice Machine / Maker</p>
             </div>
-            <div className="air-cond-repair d-flex gap-4 align-items-center">
+            <div className="air-cond-repair flex">
               <img src={IMG14} alt="IMG14" />
               <p className="p-0 m-0 fs-5">Chest Freezer</p>
             </div>
@@ -90,15 +86,15 @@ const RepairMaintaince = () => (
             system remains energy efficient and operates to its optimum level.
             Additional services include:
           </p>
-          <div className="air-cond-repair d-flex gap-4 align-items-center">
+          <div className="air-cond-repair flex">
             <img src={IMG9} alt="IMG9" />
             <p className="p-0 m-0 fs-5">Priority response to all breakdowns</p>
           </div>
-          <div className="air-cond-repair d-flex gap-4 align-items-center">
+          <div className="air-cond-repair flex">
             <img src={IMG10} alt="IMG10" />
             <p className="p-0 m-0 fs-5">24/7 Emergency response</p>
           </div>
-          <div className="air-cond-repair d-flex gap-4 align-items-center">
+          <div className="air-cond-repair flex">
             <img src={IMG11} alt="IMG11" />
             <p className="p-0 m-0 fs-5">Dedicated service engineers</p>
           </div>
