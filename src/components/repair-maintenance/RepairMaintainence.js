@@ -11,7 +11,6 @@ import IMG9 from "../../assets/repair/2.png";
 import IMG10 from "../../assets/repair/3.png";
 import IMG11 from "../../assets/repair/4.jpg";
 import IMG12 from "../../assets/repair/5.png";
-import IMG13 from "../../assets/repair/1 copy.jpg";
 import IMG14 from "../../assets/repair/2 copy.png";
 import IMG15 from "../../assets/repair/3 copy.png";
 import IMG16 from "../../assets/repair/4 copy.jpg";
@@ -34,7 +33,7 @@ const RepairMaintaince = () => (
           call out service and quality of first-time fix.
         </p>
         <hr />
-        <div className="">
+        <div className="repair-container flex">
           <h4>Commercial Refrigeration Repair</h4>
           <div className="repair-container flex">
             <div className="air-cond-repair flex">
