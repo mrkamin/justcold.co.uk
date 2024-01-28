@@ -78,7 +78,7 @@ const RepairMaintaince = () => (
         </p>
         <hr />
         <div>
-          <h4>Planned Maintenance Package</h4>
+          <h3>Planned Maintenance Package</h3>
           <p>
             Our <span className="brand-color">Planned or Proactive Maintenance Service</span>
             offers regular servicing and maintenance visits to ensure that your
@@ -136,7 +136,7 @@ const RepairMaintaince = () => (
         </div>
         <hr />
         <div>
-          <h4>Next Steps</h4>
+          <h3>Next Steps</h3>
           <p>
             The Uk Everest Refrigeration is a commercial air-conditioning
             installation and service specialist. We can help your business
