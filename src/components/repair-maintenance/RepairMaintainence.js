@@ -21,10 +21,10 @@ const RepairMaintaince = () => (
       <div className="">
         <h1>Repair and Servicing for Commercial Refrigeration</h1>
         <p>
-          Here at Be Cool Refrigeration, we repair, service and maintain all
-          types of <span className="brand-color">commercial refrigeration</span> and
-          <span className="brand-color"> air conditioning systems</span> for a wide range of businesses
-          and home owners in and around the London area.
+          Here at JustCold Refrigeration, we repair, service and maintain all
+          types of <span className="brand-color">commercial refrigeration </span>
+            for a wide range of businesses
+           owners in and around the Eroupe area.
           <br /> <br />
           For all <span className="brand-color">REPAIRS</span>, our{" "}
           <span className="brand-color">emergency helpline is available 24/7, 365 days a year</span> so
@@ -150,7 +150,7 @@ const RepairMaintaince = () => (
           and Maintenance requirements.
         </p>
       </div>
-      <div className="air-cond-sys-contact-info px-5 d-flex flex-column justify-content-center border border-dark rounded-4">
+      <div className="air-cond-sys-contact-info flex">
         <p>Air Conditioning Installation Speciaist</p>
         <h1>07473319304</h1>
         <p>
