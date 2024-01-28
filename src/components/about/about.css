@@ -5,3 +5,15 @@
     justify-content: center;
     gap: 2rem;
 }
+
+.about-image-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.about-image-container img {
+    height: 100px;
+    width: 100px;
+}

@@ -22,7 +22,7 @@ const About = () => {
           <h1>JustCold Refrigeration Service Eroupe</h1>
           <hr />
           <p>
-            <span className="brand-color">JustCold Refrigeration</span>
+            <span className="brand-color">JustCold Refrigeration </span>
             is a family run business founded in 2015 by the Ramin Family, that
             specialises in air conditioning and refrigeration services for
             commercial businesses in and around the Eroupe area.
@@ -57,7 +57,7 @@ const About = () => {
               Hamburger Restaurants and more.
             </span>
           </p>
-          <div className="about-image-container gap-1 align-items-center text-center justify-content-center">
+          <div className="about-image-container">
             <div>
               <img src={IMG1} alt="IMG1" height={100} className="" />
             </div>
