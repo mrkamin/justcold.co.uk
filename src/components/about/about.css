@@ -1,0 +1,7 @@
+.about-us {
+    display: grid;
+    grid-template-columns: 60% 20%;
+    padding: 2rem 0;
+    justify-content: center;
+    gap: 2rem;
+}
