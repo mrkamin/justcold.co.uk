@@ -123,108 +123,108 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="d-flex flex-column gap-5">
-          <div className="d-flex gap-3">
+        <div className="about-highligth flex">
+          <div className="flex about-sign">
             <div className="">
               <p
                 to="about-us"
                 rel="noopener noreferrer"
-                className="footer-socials rounded-5"
+                className="footer-socialss flex"
               >
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> 10+ Years Experience</h5>
               <p className="p-0 m-0">Established in 2015</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> 1510+ Jobs Completed</h5>
               <p className="p-0 m-0">Installation | Repair | Maintenance</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> 5 Star Google Reviews</h5>
               <p className="p-0 m-0">Professional and Reliable</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> 10+ Years Experience</h5>
               <p className="p-0 m-0">
                 F-Gas | Safe Contractor | Accredited Installer
               </p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> 24/7 Emergency Response</h5>
               <p className="p-0 m-0">On-site in less than 4 hours</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> High First Time Fix</h5>
               <p className="p-0 m-0">Low recall score</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> Guaranteed Customer Satisfaction</h5>
               <p className="p-0 m-0">High Key Performance Indicators Rating</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> High Efficiency and Performance</h5>
               <p className="p-0 m-0">Lower montlhy bills</p>
             </div>
           </div>
-          <div className="d-flex gap-3">
+          <div className="flex about-sign">
             <div className="">
-              <p rel="noopener noreferrer" className="footer-socials rounded-5">
+              <p rel="noopener noreferrer" className="footer-socialss flex">
                 <GiCheckMark />
               </p>
             </div>
-            <div className="d-flx flex-column">
+            <div className="higth-ligth flex">
               <h5 className="p-0 m-0"> High Energy Rating</h5>
               <p className="p-0 m-0">
                 5 COP (coefficient of performance) and EER (energy efficiency
