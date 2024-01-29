@@ -10,12 +10,13 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 15rem;
 }
 
 .about-image-container img {
     height: 100px;
-    width: 100px;
+    align-self: center;
+    width: 100%;
 }
 
 .about-highligth {
@@ -51,7 +52,17 @@
     padding: 0;
     margin: 0;
 }
+@media screen and (max-width: 1600px) {
+    .about-image-container {
+        padding: 1rem 12rem; 
+    }
+  }
 
+  @media screen and (max-width: 1400px) {
+    .about-image-container {
+        padding: 1rem 10rem; 
+    }
+  }
 @media screen and (max-width: 1200px) {
     .about-us {
         display: grid;
@@ -74,12 +85,21 @@
     }
   }
 
+  @media screen and (max-width: 786px) {
+    .about-image-container {
+        padding: 1rem 6rem; 
+    }
+  }
+
   @media screen and (max-width: 600px) {
     .about-highligth {
         grid-template-columns: repeat(1, 1fr);
     }
     .about-image-container {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .about-image-container {
+        padding: 1rem 4rem; 
     }
   }
 
@@ -95,6 +115,9 @@
         align-items: center;
         justify-content: center;
     }
+    .about-image-container {
+        padding: 1rem 2rem; 
+    }
   }
 
   @media screen and (max-width: 300px) {
@@ -103,5 +126,8 @@
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+    .about-image-container {
+        padding: 0; 
     }
   }

@@ -58,42 +58,42 @@ const About = () => {
             </span>
           </p>
           <div className="about-image-container">
-            <div>
-              <img src={IMG1} alt="IMG1" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG2} alt="IMG2" height={100} className="w-100" />
-            </div>
-            <div>
-              <img src={IMG4} alt="IMG4" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG5} alt="IMG5" height={100} className="w-100" />
-            </div>
-            <div>
-              <img src={IMG6} alt="IMG6" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG8} alt="IMG8" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG9} alt="IMG9" height={100} className="w-100" />
-            </div>
-            <div>
-              <img src={IMG10} alt="IMG10" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG11} alt="IMG11" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG12} alt="IMG12" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG3} alt="IMG3" height={100} className="" />
-            </div>
-            <div>
-              <img src={IMG7} alt="IMG7" height={100} className="" />
-            </div>
+            
+              <img src={IMG1} alt="IMG1"  className="" />
+            
+            
+              <img src={IMG2} alt="IMG2"  className="" />
+            
+            
+              <img src={IMG4} alt="IMG4"  className="" />
+            
+            
+              <img src={IMG5} alt="IMG5"  className="" />
+            
+            
+              <img src={IMG6} alt="IMG6"  className="" />
+            
+            
+              <img src={IMG8} alt="IMG8"  className="" />
+            
+            
+              <img src={IMG9} alt="IMG9"  className="" />
+            
+            
+              <img src={IMG10} alt="IMG10"  className="" />
+            
+            
+              <img src={IMG11} alt="IMG11"  className="" />
+            
+            
+              <img src={IMG12} alt="IMG12"  className="" />
+            
+            
+              <img src={IMG3} alt="IMG3"  className="" />
+            
+            
+              <img src={IMG7} alt="IMG7"  className="" />
+            
           </div>
           <p>
             Our experienced team of highly skilled engineers is accredited to
