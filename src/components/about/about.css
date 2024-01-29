@@ -1,3 +1,6 @@
+.about-color {
+    color: #1f1f38;
+}
 .about-us {
     display: grid;
     grid-template-columns: 60% 20%;
