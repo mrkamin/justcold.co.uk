@@ -1,12 +1,12 @@
-import React, { useRef, useState } from 'react';
-import emailjs from 'emailjs-com';
-import { HiMiniPhone } from 'react-icons/hi2';
-import { IoLocation } from 'react-icons/io5';
-import { MdEmail } from 'react-icons/md';
-import './contact.css';
+import React, { useRef, useState } from "react";
+import emailjs from "emailjs-com";
+import { HiMiniPhone } from "react-icons/hi2";
+import { IoLocation } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import "./contact.css";
 
 const Contact = () => {
-    const form = useRef();
+  const form = useRef();
   const [isEmailSent, setIsEmailSent] = useState(false);
 
   const sendEmail = (e) => {
@@ -14,10 +14,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        'service_mjg3nmi',
-        'template_bni9d7g',
+        "service_mjg3nmi",
+        "template_bni9d7g",
         form.current,
-        'ICkryGMcTL8bCrQoB',
+        "ICkryGMcTL8bCrQoB"
       )
       .then(() => {
         setIsEmailSent(true);
@@ -27,7 +27,7 @@ const Contact = () => {
         }, 4000);
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
+        console.error("Error sending email:", error);
       });
   };
 
@@ -35,22 +35,26 @@ const Contact = () => {
     <div className="contact-container flex">
       <hr />
       <section id="contact" className="contact-sect flex">
-        <div className="contact-title">
+        <div className="contact-title flex">
           <div>
-            <h2>The Uk Everest Refrigeration and Air-Conditioning</h2>
-            <h4>
-              Specialist Commercial Air Conditioning & Refrigeration Service
-            </h4>
+            <h2>
+              <span className="font-family-coiny about-color">JustCold</span>{" "}
+              <span className="font-family-patua about-color">
+                {" "}
+                Refrigeration
+              </span>
+            </h2>
+            <h4>Specialist Commercial Refrigeration Service</h4>
           </div>
-          <div className="">
-            <HiMiniPhone className="" />
+          <div className="contact-sign-container">
+            <HiMiniPhone className="contact-sign" />
             <div className="">
               <p className="">Phone</p>
               <p className="">07473319304</p>
             </div>
           </div>
-          <div className="">
-            <IoLocation className="" />
+          <div className="flex contact-sign-container">
+            <IoLocation className="contact-sign" />
             <div className="">
               <p className="">Address</p>
               <p className="">
@@ -59,55 +63,48 @@ const Contact = () => {
               </p>
             </div>
           </div>
-          <div className="">
-            <MdEmail className="" />
+          <div className="flex contact-sign-container">
+            <MdEmail className="contact-sign" />
             <div className="">
               <p className="">E-mail</p>
-              <p className="">info@theukeverest.co.uk</p>
+              <p className="">info@justcold.co.uk</p>
             </div>
           </div>
           <div />
         </div>
-        <div>
+        <div className="form-container flex">
           <h3>
-            Europe’s Top Refrigeration company.
-            {' '}
-            <br />
+            Europe’s Top Refrigeration company. <br />
             Contact us
           </h3>
-          <div className="container">
+          <div className="container flex">
             {isEmailSent ? (
               <p className="">
                 <span>Email successfully sent!</span>
               </p>
             ) : (
-              <form
-                ref={form}
-                onSubmit={sendEmail}
-                className=""
-              >
+              <form ref={form} onSubmit={sendEmail} className="form flex">
                 <input
                   type="text"
                   name="name"
                   placeholder="Your Full Name"
                   required
                 />
-                <div className="">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Your Email"
-                    required
-                    className=""
-                  />
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="Your Phone No"
-                    required
-                    className=""
-                  />
-                </div>
+
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                  className=""
+                />
+                <input
+                  type="text"
+                  name="phone"
+                  placeholder="Your Phone No"
+                  required
+                  className=""
+                />
 
                 <textarea
                   name="message"
@@ -115,10 +112,7 @@ const Contact = () => {
                   placeholder="Your Message"
                   required
                 />
-                <button
-                  type="submit"
-                  className="contact-btn read-more"
-                >
+                <button type="submit" className="contact-btn read-more">
                   Send Message
                 </button>
               </form>
@@ -128,6 +122,6 @@ const Contact = () => {
       </section>
     </div>
   );
-}
+};
 
 export default Contact;
