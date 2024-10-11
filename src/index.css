@@ -1,0 +1,75 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Patua+One&display=swap');
+
+:root {
+  --ff-coiny: 'Coiny', system-ui;
+  --ff-bai-jamjuree: "Bai Jamjuree", sans-serif;
+  --ff-Patua: 'Patua One', serif;;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: var(--ff-bai-jamjuree);
+  color: #1f1f38;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  padding: 0;
+  margin: 0;
+  color: #1f1f38;
+}
+.font-family-coiny {
+  font-family: var(--ff-coiny);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.font-family-patua {
+  font-family: var(--ff-Patua);
+  color: #fff;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  gap: 2rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+.flex {
+  display: flex;
+}
+
+ul li h4 {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 6.5px;
+  height: 6.5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #e8dfec;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 20%;
+  background: linear-gradient(#40c5f2, #0097c8);
+  border-radius: 0 0 50px 50px;
+}
